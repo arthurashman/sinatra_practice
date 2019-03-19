@@ -1,7 +1,7 @@
 <% if @name %>
   <h1>My name is <%= @name %></h1>
 <% else %>
-  <h1>Name me!</h1>
+  /naming-form
 <%end%>
 
 
@@ -9,12 +9,3 @@
 <img src='http://bit.ly/1eze8aE' alt='Cute cat with pink background' style = 'border: dashed red'>
 </div>
 
-<br></br>
-
-<form action="/named-cat">
-  <div>
-    <label for="name">Name:</label>
-    <input type="text" name="name">
-    <input type="submit" value="Submit"></input>
-  </div>
-</form>
