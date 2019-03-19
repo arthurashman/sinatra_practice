@@ -13,6 +13,5 @@ get '/basket' do
 end
 
 get '/cat' do
-  
-  "<img src='http://bit.ly/1eze8aE' alt='Cute cat with pink background' style = 'border: dashed red'>"
+  erb(:index)
 end
